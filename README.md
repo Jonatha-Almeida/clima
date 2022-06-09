@@ -2,7 +2,9 @@
 
 
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+
+<i class="devicon-go-original-wordmark colored"></i>
+          
 
 ### Link para vídeo do Youtube
 
