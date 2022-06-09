@@ -3,9 +3,11 @@
 
 
 
-<i class="devicon-go-original-wordmark"></i>
-
+# GO LANG <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg"  width=115/>
+         
           
+          
+       
 
 ### Link para vídeo do Youtube
 
