@@ -3,7 +3,8 @@
 
 
 
-<i class="devicon-go-original-wordmark colored"></i>
+<i class="devicon-go-original-wordmark"></i>
+
           
 
 ### Link para vídeo do Youtube
