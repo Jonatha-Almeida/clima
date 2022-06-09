@@ -1,0 +1,60 @@
+{{define "Edit"}}
+{{template "_head"}}
+
+{{template "_menu"}}
+
+<div class="container">
+
+    <body>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-5">Modificando os status</h1>
+                <p class="lead">Insira os dados para atualizar ou editar</p>
+            </div>
+        </div>
+        <form method="POST" action="update">
+            <input type="hidden" name="id" value="{{.Id}}" >
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="form-group">
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" name="cidade" class="form-control" value="{{.Cidade}}">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="form-group">
+                        <label for="municipio">Municipio:</label>
+                        <input type="text" name="municipio" class="form-control" value="{{.Municipio}}">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="form-group">
+                        <label for="chuvam">Chuva Esperada no Mês:</label>
+                        <input type="number" name="chuvam" class="form-control" step="0.01" value="{{.ChuvaEsperada}}">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="form-group">
+                        <label for="chuvac">Chuva Que Caiu:</label>
+                        <input type="number" name="chuvac" class="form-control" value="{{.ChuvaQueCaiu}}">
+                    </div>
+                </div>
+            </div>
+            <button type="submit" value="salvar" class="btn btn-success">Atualizar</button>
+            <a class="btn btn-info" href="/">Voltar</a>
+        </form>
+    </body>
+
+</html>
+</div>
+</body>
+
+</html>
+{{end}}
